@@ -18,7 +18,7 @@
         android:theme="@style/NavigationViewStyle"
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/nav_header"
-        android:background="@color/colorPrimary"
+        android:background="@color/white"
         app:itemTextColor="#fff"
         app:itemIconSize="30dp"
         android:layout_gravity="start"

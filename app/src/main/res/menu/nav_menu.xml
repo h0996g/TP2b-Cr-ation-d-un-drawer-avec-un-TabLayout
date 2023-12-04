@@ -2,14 +2,13 @@
     <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
         <item android:id="@+id/home"
-            android:icon="@drawable/ic_baseline_home_24"
-            android:title="Home"/>
+            android:icon="@drawable/trash"
+android:iconTint="@color/colorPrimary"
+            android:title="Challenges"/>
 
         <item android:id="@+id/call"
-            android:icon="@drawable/ic_baseline_local_phone_24"
-            android:title="Call"/>
+            android:icon="@drawable/baseline_message_24"
+            android:title="Mes Commentaires"/>
 
-        <item android:id="@+id/setting"
-            android:icon="@drawable/ic_baseline_settings_24"
-            android:title="Setting"/>
+
 </menu>

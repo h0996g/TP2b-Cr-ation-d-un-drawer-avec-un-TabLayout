@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setTitle("Your Massenger");
+        setTitle("List challenges");
         Toolbar toolbar=(Toolbar)findViewById(R.id.custom_toolbar);
         setSupportActionBar(toolbar);
 
@@ -82,13 +82,13 @@ public class MainActivity extends AppCompatActivity
             public boolean onNavigationItemSelected(@NonNull MenuItem item)
             {
                 if(item.getItemId()==R.id.home)
-                    Toast.makeText(getApplicationContext(),"Home is clicked",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Challenges is clicked",Toast.LENGTH_LONG).show();
 
                 if(item.getItemId()==R.id.call)
-                    Toast.makeText(getApplicationContext(),"Call is clicked",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Comments is clicked",Toast.LENGTH_LONG).show();
 
-                if(item.getItemId()==R.id.setting)
-                    Toast.makeText(getApplicationContext(),"Setting is clicked",Toast.LENGTH_LONG).show();
+//                if(item.getItemId()==R.id.setting)
+//                    Toast.makeText(getApplicationContext(),"Setting is clicked",Toast.LENGTH_LONG).show();
 
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return false;
